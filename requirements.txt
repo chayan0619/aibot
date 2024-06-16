@@ -74,13 +74,14 @@ PyMuPDF==1.24.4
 PyMuPDFb==1.24.3
 pyparsing==3.1.2
 PyPDF2==3.0.1
-pypiwin32==223
+pypiwin32==223 ; sys_platform == 'win32'
+pywin32==306 ; sys_platform == 'win32'
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-multipart==0.0.9
 pyttsx3==2.90
 pytz==2024.1
-pywin32==306
+pywin32==306 ; platform_system == 'Windows'
 PyYAML==6.0.1
 referencing==0.35.1
 regex==2024.5.15
