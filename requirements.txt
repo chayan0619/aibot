@@ -15,7 +15,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 comtypes==1.4.2
-contourpy==1.2.1
+contourpy==1.1.1
 cryptography==42.0.7
 cycler==0.12.1
 distlib==0.3.8
